@@ -1,0 +1,77 @@
+
+/*instagramdan arka plan rengini aldım ve buraya ekledim*/
+body{
+    background: #fafafa;
+}
+/*Padding top vererek fixed sorununu düzelttim*/
+.middlearea{
+    padding-top: 70px;
+    max-height: 200px !important;
+}
+/*navbar a verilen değerleri girdim*/
+.navbar{
+    height: 54px;
+    background-color: #fff;
+}
+/* logoya verilen değeri girdim*/
+.logo{
+    margin-left: 192px;
+}
+::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-position: 40%;
+    background-size: 6%;
+    background-image: url(/assets/search-solid.svg);
+    background-repeat: no-repeat;
+  }
+  
+  input.empty {
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      background-color: #FAFAFA;
+  }
+  
+  .postuserfont {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+  
+  
+  .storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+  }
+  
+  .storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .rightpanellinks {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  
+  .rightpanellinks:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  /* sağ taraftaki paneli sticky yaptım*/
+  #sticky-sidebar{
+    position: sticky;
+    top: 70px;
+}
+/* verilen değerleri girdim, arka plan rengini orjinalindeki gibi yaptım*/
+.rightpanel{
+    background: #fafafa;;
+    border: none;
+}
